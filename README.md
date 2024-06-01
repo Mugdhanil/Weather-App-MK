@@ -15,7 +15,7 @@ The Weather Dashboard is an interactive application built with Angular that allo
 
 - **Framework**: Angular (v15+)
 - **API**: WeatherAPI (WeatherAPI.com)
-- **Styling**: SCSS
+- **Styling**: CSS
 - **CSS Framework**: Bootstrap or Tailwind
 - **Component Library**: Angular Material
 
