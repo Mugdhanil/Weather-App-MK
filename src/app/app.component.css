@@ -1,0 +1,36 @@
+.app-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #7f7f7f;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}        
+
+.weather-container {
+  width: 65vw;
+  height: 85vh;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.left-container {
+  width: 50%;
+  height: 100%;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  background-color: #ffffff;
+  flex: 3;
+}
+
+.right-container {
+  width: 50%;
+  height: 100%;
+  background-color: #f6f7f9;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  flex: 7;
+  overflow: hidden; /* Ensures no child content can overlap the border */
+}

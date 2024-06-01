@@ -1,0 +1,372 @@
+/*Outer Container for Right Container*/
+.right-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #eff4ff;
+  }
+/*CSS for Navbar*/
+  .right-container-nav-bar {
+    width: 100%;
+    height: 10%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eff4ff;
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    font-size: small;
+  }
+  /*CSS for Nav Bar Tabs' Names*/
+  .nav-bar-tabs{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-family: "Noto Sans", sans-serif;
+    
+  }
+  /*Css for Today Tab, Hover and Active*/
+  .today{
+   
+    margin-right: 10px;
+    color: #c5c5c5;
+    cursor: pointer;
+  }
+  .today-hover{
+    cursor: pointer;
+    color: #520606;
+
+  }
+  .today-active{
+    color: #520606;
+    cursor: pointer;
+  }
+  /*Css for Week Tab, Hover and Active*/
+  .week{
+  
+    margin-right: 10px;
+    color: #c5c5c5;
+    cursor: pointer;
+  }
+  .week-hover{
+    cursor: pointer;
+    color: #520606;
+  }
+  .week-active{
+    color: #520606;
+    cursor: pointer;
+  }
+  .underline{
+    width: 40px;
+    height: 1px;
+    background-color: #000000;
+    margin-top: 1.2rem;
+  }
+  .underline-today{
+    background-color: #000000;
+    transition: 100ms;
+    transform: translate3d(-235%,0,0);
+    cursor: pointer;
+  }
+  .underline-week{
+    background-color: #000000;
+    transition: 100ms;
+    transform: translate3d(-120%,0,0);
+    cursor: pointer;
+  }
+
+/*CSS for Nav Bar Metric*/
+  .nav-bar-metric{
+    display: flex;
+    flex-direction: row;
+    margin-right: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+  .celcius{
+    border-radius: 500px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 10px;
+    color: #000000;
+    background-color: #ffffff;
+    font-size: small;
+    cursor: pointer;
+
+  }
+  /*CSS for Celcius Hover and Active*/
+  .celcius-hover{
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #1a0000;
+  }
+  .celcius-active{
+    color: #ffffff;
+    background-color: #1a0000;
+    cursor: pointer;
+  }
+  /*CSS for Fahrenheit Hover and Active*/
+  .fahrenheit{
+    border-radius: 500px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #000000;
+    background-color: #ffffff;
+    font-size: small;
+    cursor: pointer;
+  }
+  .fahrenheit-hover{
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #1a0000;
+  }
+  .fahrenheit-active{
+    color: #ffffff;
+    background-color: #1a0000;
+    cursor: pointer;
+  }
+  /*CSS for Profile Image*/
+  .profile-image img{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  /*CSS for Right Container Data Box*/
+  .right-container-data-box{
+    flex: 12;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    margin-top: 20px;
+  }
+  .right-container-week-cards{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px; /* Reduced from 300px to 30px */
+    
+  }
+  .card{
+    width: 75px;
+    height: 95px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-right: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: x-small;
+    font-weight: 500px;
+    margin-bottom: 30px;
+  }
+  .card-day{
+    margin-top: 7px;
+    margin: 5px;
+  }
+  .card-temp-img img{
+    width: 40px;
+    height: 40px;
+    margin-top: 3px;
+  }
+  .card-temp-value{
+    font-size: 10px;
+    font-weight: 500px;
+    margin: 5px;
+  }
+  .right-container-today-cards{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px; 
+  }
+.right-container-todays-highlight{
+    flex: 3;
+    display: flex;
+    flex-direction: column;   
+                      
+  }
+.right-container-todays-highlight-title{
+    flex: 5;
+    margin-top: 0px;
+  
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+   margin-bottom: 20px;
+
+  }
+  .right-container-todays-highlight-cards{
+    flex: 8;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    
+  }
+  
+  .right-container-todays-highlight-card{
+    width: 180px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  .right-container-todays-highlight-card-title{
+    flex: 1;
+    color: #6f6a6a;
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: 10px;
+    
+  }
+  .gauge{
+    margin-top: -30px;
+    flex: 2;
+    width: 70%;
+    max-width: 180px;
+    color: #4432e5;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: -5px;
+  }
+  .gauge-body{
+    width: 100%;
+    height: 0%;
+    padding-bottom: 50%;
+    position: relative;
+    border-top-left-radius: 100% 200%;
+    border-top-right-radius: 100% 200%;
+    overflow: hidden;
+    margin-top: 1rem;
+    background: #4432e5;
+    
+  }
+  .gauge-fill{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: inherit;
+    height: 100%;
+    background: #ff5e00;
+    transform-origin: center top;
+    transform: rotate(0.25turn);
+    transition: transform 0.2s ease-in-out;
+  }
+  .gauge-cover{
+    width: 75%;
+    height: 150%;
+    background: floralwhite;
+    border-radius: 50px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%);
+
+    display: flex;
+    padding-bottom: 25%;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    color: #ffffff;
+  }
+  .right-container-todays-highlight-card-value{
+    flex: 1;
+    margin-top: -30px;
+    font-size: x-large;
+    font-weight: 500;
+    margin-bottom: 20px;
+    z-index:1;
+  }
+  .wind-status-value{
+    flex: 2;
+    font-size: x-large;
+    font-weight: 500;
+    
+  }
+  .wind-status-image{
+    flex: 1;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+  }
+  .sunrise, .sunset {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; /* Aligns content to the right */
+    align-items: center;
+  }
+  
+  .sunrise-img, .sunset-img {
+    flex: 1;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center; /* Centers the image horizontally */
+    align-items: center; /* Centers the image vertically */
+    margin-left: -15px;
+    margin-bottom: 10px;
+  }
+  
+  .sunrise-time, .sunset-time {
+    flex: 2;
+    font-size: x-large;
+    font-weight: 500;
+    display: flex;
+    justify-content: center; /* Centers the text horizontally */
+    align-items: center; /* Centers the text vertically */
+    margin-left: 5px;
+  }
+  .humidity-status-image{
+    margin-bottom: 70px;
+    
+    
+  }
+  .humidity-status-value{
+    margin-bottom: 75px;
+    font-size: x-large;
+    font-weight: 500;
+  }
+  .humidity-summary{
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+
+    font-size: small;
+    font-weight: bold;
+    margin-top: -60px;
+    margin-bottom: 10px;
+  }
+ 
+  .humidity-summary img{
+    width: 30px;
+    height: 30px;
+    margin-top: -10px;
+  }
